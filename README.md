@@ -82,39 +82,39 @@ The mean scores for **lung vessel visibility**, **airway visibility** and **degr
 <tbody align="center" vlign="center">
   <tr>
     <td>Junior physician</td>
-    <td>666</td>
-    <td>666</td>
-    <td>666</td>
+    <td>Precision (↑)</td>
+    <td>Recall (↑)</td>
+    <td>F1 score (↑)</td>
   </tr>
   <tr>
-    <td>666</td>
-    <td>666</td>
-    <td>666</td>
-    <td>666</td>
+    <td>CXR</td>
+    <td>0.70</td>
+    <td>0.40</td>
+    <td>0.51</td>
   </tr>
     <tr>
-    <th>666</th>
-    <th>666</th>
-    <th>666</th>
-    <th>666</th>
+    <th>Tissue</th>
+    <th>0.73</th>
+    <th>0.56</th>
+    <th>0.63</th>
   </tr>
   <tr>
-    <td>666</td>
-    <td>666</td>
-    <td>666</td>
-    <td>666</td>
+    <td>Senior physician</td>
+    <td>Precision (↑)</td>
+    <td>Recall (↑)</td>
+    <td>F1 score (↑)</td>
   </tr>
   <tr>
-    <td>666</td>
-    <td>666</td>
-    <td>666</td>
-    <td>666</td>
+    <td>CXR</td>
+    <td>0.74</td>
+    <td>0.51</td>
+    <td>0.60</td>
   </tr>
     <tr>
-    <th>666</th>
-    <th>666</th>
-    <th>666</th>
-    <th>666</th>
+    <th>Tissue</th>
+    <th>0.75</th>
+    <th>0.75</th>
+    <th>0.75</th>
   </tr>
 </tbody>
 </table>
