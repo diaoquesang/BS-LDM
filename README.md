@@ -78,6 +78,8 @@ The mean scores for **lung vessel visibility**, **airway visibility** and **degr
 </table>
 
 # Diagnostic Utility Assessment
+The same dataset used for the bone suppression task was employed for this analysis. Lesions within the dataset were corroborated by CT and included a range of pathologies such as **inflammation**, **tuberculosis**, and **masses or nodules**. The diagnostic evaluations were conducted on CXR images and our model-generated soft tissue images independently. The results indicate that the soft tissue images from our BS-LDM **enable physicians to detect lesions more comprehensively and accurately** relative to the original CXR images, thereby confirming the **high clinical diagnostic value** of our model.
+
 <table align="center">
 <tbody align="center" valign="center">
   <tr>
