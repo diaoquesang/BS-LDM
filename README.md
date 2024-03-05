@@ -160,45 +160,38 @@ pip install -r requirements.txt
 
 ### Download the checkpoints
 You can download the checkpoints to successfully run the codes!
-The files can be found in the following link : 
+The files can be found in the following links : 
 
-https://drive.google.com/drive/folders/1cDlXJ7Sh4k05aM_tvzor9_F_TPCeIGMN?usp=sharing
+https://drive.google.com/file/d/1KcVK0F7lG5L9Zc0-pWPS9pucAWIG3yFc/view?usp=drive_link
+
+https://drive.google.com/file/d/1zt5rV-d5wXVXCOgYqqM3C3r4wap6XkBe/view?usp=drive_link
 
 ## Evaluation
 To do the evaluation process of VQGAN, please run the following command:
 ```
 python vq-gan_eval.py
 ```      
-To do the evaluation process of the conditional diffusion model, please run the following command:
+To do the evaluation process of the conditional latent diffusion model, please run the following command:
 ```
 python ldm_eval.py
 ```
 
 ## Train
-If you want to train our model by yourself, you are primarily expected to split the whole dataset into training, validation, and testing. You can find the codes in **Data Spliting** directory and run the following commands one by one:
+If you want to train our model by yourself, you are primarily expected to split the whole dataset into training and testing. Please run the following command:
 ```
-python txt.py
-python split.py
+python dataSegmentation.py
 ```
-Then, you can run the following command in stage 1:
+Then, you can run the following command to train the VQGAN model:
 ```
-python Train.py
+python vq-gan_train.py
 ```
-Then after finishing stage 1, you can use the generated output of stage 1 to train our stage (enhancement module) by running the following command:
+Then after finishing the training of VQGAN, you can use the saved VQGAN model as a decoder when training the conditional latent diffusion model by running the following command:
 ```
-python Hybridloss_autoencoder.py
-```
-These two files are located at
-```
-├─ Stage1
-│    └─ Train.py
-├─ Stage2
-│    ├─ Hybridloss_autoencoder.py
-│    └─ pytorch_msssim.py
+python ldm_train.py
 ```
 
-## Evaluation metrics
-You can also run the following commands about evaluation metrics in our experiment incuding PSNR, SSIM, MSE and BSR:
+## Metrics
+You can also run the following command about evaluation metrics in our experiment including BSR, MSE, PSNR and LPIPS:
 ```
 python metrics.py
 ```      
