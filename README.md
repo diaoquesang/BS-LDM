@@ -176,7 +176,7 @@ To do the evaluation process of the conditional latent diffusion model, please r
 python ldm_eval.py
 ```
 
-## Train
+## Training
 If you want to train our model by yourself, you are primarily expected to split the whole dataset into training and testing. Please run the following command:
 ```
 python dataSegmentation.py
