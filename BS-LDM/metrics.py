@@ -49,20 +49,6 @@ def cal_MSE(gt_path, bs_path):
     return MSE
 
 
-def cal_SSIM(gt_path, bs_path):
-    gt = cv.imread(gt_path, 0)
-    bs = cv.imread(bs_path, 0)
-
-    gt = gt / 255
-    bs = bs / 255
-
-    gt = cv.resize(gt, (1024, 1024))
-    bs = cv.resize(bs, (1024, 1024))
-
-    SSIM = ssim(gt, bs, channel_axis=None, data_range=1)
-    return SSIM
-
-
 def cal_PSNR(gt_path, bs_path):
     gt = cv.imread(gt_path, 0)
     bs = cv.imread(bs_path, 0)
@@ -107,7 +93,6 @@ if __name__ == "__main__":
 
     BSR_list = []
     MSE_list = []
-    SSIM_list = []
     PSNR_list = []
     LPIPS_list = []
 
@@ -118,20 +103,17 @@ if __name__ == "__main__":
 
         BSR = cal_BSR(cxr_path, gt_path, bs_path)
         MSE = cal_MSE(gt_path, bs_path)
-        SSIM = cal_SSIM(gt_path, bs_path)
         PSNR = cal_PSNR(gt_path, bs_path)
         LPIPS = cal_LPIPS(gt_path, bs_path)
 
         BSR_list.append(BSR)
         MSE_list.append(MSE)
-        SSIM_list.append(SSIM)
         PSNR_list.append(PSNR)
         LPIPS_list.append(LPIPS)
 
-        print(f"{filename} BSR: {BSR} MSE: {MSE} SSIM:{SSIM} PSNR:{PSNR} LPIPS:{LPIPS}")
+        print(f"{filename} BSR: {BSR} MSE: {MSE} PSNR:{PSNR} LPIPS:{LPIPS}")
 
     print("Average BSR:", sum(BSR_list) / len(BSR_list))
     print("Average MSE:", sum(MSE_list) / len(MSE_list))
-    print("Average SSIM:", sum(SSIM_list) / len(SSIM_list))
     print("Average PSNR:", sum(PSNR_list) / len(PSNR_list))
     print("Average LPIPS:", sum(LPIPS_list) / len(LPIPS_list))
