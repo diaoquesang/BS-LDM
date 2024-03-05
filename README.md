@@ -12,7 +12,7 @@ The **BS-LDM** is characterized by its core mechanism: a **conditional diffusion
 
 ![image](https://github.com/diaoquesang/BS-LDM/blob/main/framework.png)
 
-## Visualization of Bone Suppression
+## Visualization of Bone Suppression Effect
 ![image](https://github.com/diaoquesang/BS-LDM/blob/main/cxr2bs.png)
 
 ## Comparisons Performance with Previous Works (Visualization)
