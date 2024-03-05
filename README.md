@@ -15,7 +15,66 @@ The **BS-LDM** is characterized by its core mechanism: a **conditional diffusion
 ## Visualization of Bone Suppression Effect
 ![image](https://github.com/diaoquesang/BS-LDM/blob/main/cxr2bs.png)
 
-## Comparisons Performance with Previous Works (Visualization)
+## Comparison Performance with Previous Works (Visualization)
 ![image](https://github.com/diaoquesang/BS-LDM/blob/main/comparison.png)
 
+## Ablation on Offset Noise and the Dynamic Clipping Strategy (Visualization)
 
+## Detailed Clinical Evaluation Results
+
+# Image Quality Assessment
+The mean scores for **lung vessel visibility**, **airway visibility** and **degree of bone suppression** were **2.758**, **2.714**, and **2.765**, respectively, with a **maximum score** of **3**, indicating that the soft tissue images from our BS-LDM not only have a **high degree of bone suppression**, but also retain **fine detail** and **critical lung pathology**.
+
+<table>
+<thead>
+  <tr>
+    <th colspan="2">Clinical Evaluation Criteria</th>
+    <th>Junior physician</th>
+    <th>Intermediate physician</th>
+    <th>Senior physician</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td rowspan="3">Lung vessel visibility</td>
+    <td>Clearly displayed (3)</td>
+    <td rowspan="3">2.431</td>
+    <td rowspan="3">2.858</td>
+    <td rowspan="3">2.984</td>
+  </tr>
+  <tr>
+    <td>Displayed (2)</td>
+  </tr>
+  <tr>
+    <td>Not displayed (1)</td>
+  </tr>
+  <tr>
+    <td rowspan="3">Airway visibility</td>
+    <td>Lobar and intermediate bronchi (3)</td>
+    <td rowspan="3">2.561</td>
+    <td rowspan="3">2.643</td>
+    <td rowspan="3">2.937</td>
+  </tr>
+  <tr>
+    <td>Main bronchus and rump (2)</td>
+  </tr>
+  <tr>
+    <td>Trachea (1)</td>
+  </tr>
+  <tr>
+    <td rowspan="3">Degree of bone suppression</td>
+    <td>Nearly perfect suppression (3)</td>
+    <td rowspan="3">2.781</td>
+    <td rowspan="3">2.793</td>
+    <td rowspan="3">2.722</td>
+  </tr>
+  <tr>
+    <td>Unsuppressed bones less than 5 (2)</td>
+  </tr>
+  <tr>
+    <td>5 or more bones unsuppressed (1)</td>
+  </tr>
+</tbody>
+</table>
+
+# Diagnostic Utility Assessment
