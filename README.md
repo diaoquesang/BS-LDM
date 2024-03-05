@@ -132,3 +132,73 @@ The same dataset used for the bone suppression task was employed for this analys
   </tr>
 </tbody>
 </table>
+
+## Pre-requisties
+* Linux
+
+* Python>=3.7
+
+* NVIDIA GPU (memory>=6G) + CUDA cuDNN
+
+### Download the dataset
+Now, we only provide three paired images with CXRs and DES soft-tissues images. Soon, we will make them available to the public after data usage permission. Three paired images are located at
+```
+├─ CXR
+│   ├─ 0.png
+│   ├─ 1.png
+│   └─ 2.png
+└─ BS
+    ├─ 0.png
+    ├─ 1.png
+    └─ 2.png
+```
+
+### Install dependencies
+```
+pip install -r requirements.txt
+```
+
+### Download the checkpoints
+You can download the checkpoints to successfully run the codes!
+The files can be found in the following link : 
+
+https://drive.google.com/drive/folders/1cDlXJ7Sh4k05aM_tvzor9_F_TPCeIGMN?usp=sharing
+
+## Evaluation
+To do the evaluation process of VQGAN, please run the following command:
+```
+python vq-gan_eval.py
+```      
+To do the evaluation process of the conditional diffusion model, please run the following command:
+```
+python ldm_eval.py
+```
+
+## Train
+If you want to train our model by yourself, you are primarily expected to split the whole dataset into training, validation, and testing. You can find the codes in **Data Spliting** directory and run the following commands one by one:
+```
+python txt.py
+python split.py
+```
+Then, you can run the following command in stage 1:
+```
+python Train.py
+```
+Then after finishing stage 1, you can use the generated output of stage 1 to train our stage (enhancement module) by running the following command:
+```
+python Hybridloss_autoencoder.py
+```
+These two files are located at
+```
+├─ Stage1
+│    └─ Train.py
+├─ Stage2
+│    ├─ Hybridloss_autoencoder.py
+│    └─ pytorch_msssim.py
+```
+
+## Evaluation metrics
+You can also run the following commands about evaluation metrics in our experiment incuding PSNR, SSIM, MSE and BSR:
+```
+python metrics.py
+```      
