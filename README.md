@@ -25,8 +25,8 @@ The **BS-LDM** is characterized by its core mechanism: a **conditional diffusion
 # Image Quality Assessment
 The mean scores for **lung vessel visibility**, **airway visibility** and **degree of bone suppression** were **2.758**, **2.714**, and **2.765**, respectively, with a **maximum score** of **3**, indicating that the soft tissue images from our BS-LDM not only have a **high degree of bone suppression**, but also retain **fine detail** and **critical lung pathology**.
 
-<table>
-<thead>
+<table align="center">
+<thead align="center" vlign="center">
   <tr>
     <th colspan="2">Clinical Evaluation Criteria</th>
     <th>Junior physician</th>
@@ -34,7 +34,7 @@ The mean scores for **lung vessel visibility**, **airway visibility** and **degr
     <th>Senior physician</th>
   </tr>
 </thead>
-<tbody>
+<tbody align="center" vlign="center">
   <tr>
     <td rowspan="3">Lung vessel visibility</td>
     <td>Clearly displayed (3)</td>
@@ -78,3 +78,43 @@ The mean scores for **lung vessel visibility**, **airway visibility** and **degr
 </table>
 
 # Diagnostic Utility Assessment
+<table align="center">
+<tbody align="center" vlign="center">
+  <tr>
+    <td>Junior physician</td>
+    <td>666</td>
+    <td>666</td>
+    <td>666</td>
+  </tr>
+  <tr>
+    <td>666</td>
+    <td>666</td>
+    <td>666</td>
+    <td>666</td>
+  </tr>
+    <tr>
+    <th>666</th>
+    <th>666</th>
+    <th>666</th>
+    <th>666</th>
+  </tr>
+  <tr>
+    <td>666</td>
+    <td>666</td>
+    <td>666</td>
+    <td>666</td>
+  </tr>
+  <tr>
+    <td>666</td>
+    <td>666</td>
+    <td>666</td>
+    <td>666</td>
+  </tr>
+    <tr>
+    <th>666</th>
+    <th>666</th>
+    <th>666</th>
+    <th>666</th>
+  </tr>
+</tbody>
+</table>
