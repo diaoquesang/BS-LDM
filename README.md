@@ -143,14 +143,15 @@ The same dataset used for the bone suppression task was employed for this analys
 ### Download the dataset
 Now, we only provide three paired images with CXRs and DES soft-tissues images. Soon, we will make them available to the public after data usage permission. Three paired images are located at
 ```
-├─ CXR
-│   ├─ 0.png
-│   ├─ 1.png
-│   └─ 2.png
-└─ BS
-    ├─ 0.png
-    ├─ 1.png
-    └─ 2.png
+└─BS-LDM
+    ├─ CXR
+    │   ├─ 0.png
+    │   ├─ 1.png
+    │   └─ 2.png
+    └─ BS
+        ├─ 0.png
+        ├─ 1.png
+        └─ 2.png
 ```
 
 ### Install dependencies
