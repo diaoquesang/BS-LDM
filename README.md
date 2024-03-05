@@ -29,7 +29,7 @@ The **BS-LDM** is characterized by its core mechanism: a **conditional diffusion
 
 ## Detailed Clinical Evaluation Results
 
-# Image Quality Assessment
+### Image Quality Assessment
 The mean scores for **lung vessel visibility**, **airway visibility** and **degree of bone suppression** were **2.758**, **2.714**, and **2.765**, respectively, with a **maximum score** of **3**, indicating that the soft tissue images from our BS-LDM not only have a **high degree of bone suppression**, but also retain **fine detail** and **critical lung pathology**.
 
 <table align="center">
@@ -84,7 +84,7 @@ The mean scores for **lung vessel visibility**, **airway visibility** and **degr
 </tbody>
 </table>
 
-# Diagnostic Utility Assessment
+### Diagnostic Utility Assessment
 The same dataset used for the bone suppression task was employed for this analysis. Lesions within the dataset were corroborated by **CT** and included a range of pathologies such as **inflammation**, **tuberculosis**, and **masses or nodules**. The diagnostic evaluations were conducted on CXR images and our model-generated soft tissue images independently. The results indicate that the soft tissue images from our BS-LDM **enable physicians to detect lesions more comprehensively and accurately** relative to the original CXR images, thereby confirming the **high clinical diagnostic value** of our model.
 
 <table align="center">
