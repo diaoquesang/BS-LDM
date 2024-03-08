@@ -41,9 +41,9 @@ The mean scores for **lung vessel visibility**, **airway visibility** and **degr
 <thead align="center" valign="center">
   <tr>
     <th colspan="2">Clinical Evaluation Criteria</th>
-    <th>Junior physician</th>
-    <th>Intermediate physician</th>
-    <th>Senior physician</th>
+    <th>Junior Physician</th>
+    <th>Intermediate Physician</th>
+    <th>Senior Physician</th>
   </tr>
 </thead>
 <tbody align="center" valign="center">
@@ -95,10 +95,10 @@ The same dataset used for the bone suppression task was employed for this analys
 <table align="center">
 <tbody align="center" valign="center">
   <tr>
-    <td>Junior physician</td>
+    <td>Junior Physician</td>
     <td>Precision (↑)</td>
     <td>Recall (↑)</td>
-    <td>F1 score (↑)</td>
+    <td>F1 Score (↑)</td>
   </tr>
   <tr>
     <td>CXR</td>
@@ -113,7 +113,7 @@ The same dataset used for the bone suppression task was employed for this analys
     <th>0.63</th>
   </tr>
   <tr>
-    <td>Senior physician</td>
+    <td>Senior Physician</td>
     <td>Precision (↑)</td>
     <td>Recall (↑)</td>
     <td>F1 score (↑)</td>
