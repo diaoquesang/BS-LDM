@@ -116,7 +116,7 @@ The same dataset used for the bone suppression task was employed for this analys
     <td>Senior Physician</td>
     <td>Precision (↑)</td>
     <td>Recall (↑)</td>
-    <td>F1 score (↑)</td>
+    <td>F1 Score (↑)</td>
   </tr>
   <tr>
     <td>CXR</td>
