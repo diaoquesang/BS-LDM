@@ -19,23 +19,51 @@ The **BS-LDM** is characterized by its core mechanism: a **conditional diffusion
 <img src="https://github.com/diaoquesang/BS-LDM/blob/main/framework.png" width="100%">
 </div>
 
+## Presentation of CXR and DES soft tissue images from SZCH-X-Rays dataset.
+<div align="center">
+<img src="https://github.com/diaoquesang/BS-LDM/blob/main/d1.png" width="100%">
+</div>
+
+## Presentation of CXR and DES soft tissue images from original JSRT dataset.
+<div align="center">
+<img src="https://github.com/diaoquesang/BS-LDM/blob/main/d2.png" width="100%">
+</div>
+
+## Presentation of CXR and DES soft tissue images from processed JSRT dataset.
+<div align="center">
+<img src="https://github.com/diaoquesang/BS-LDM/blob/main/d3.png" width="100%">
+</div>
+
 ## Visualization of Bone Suppression Effect
 <div align="center">
 <img src="https://github.com/diaoquesang/BS-LDM/blob/main/cxr2bsNew.png" width="80%">
 </div>
 
 ## Illustration of Gaussian noise, bias noise, and offset noise.
+all pixels of bias noise have the **same value** sampled from a Gaussian distribution
 <div align="center">
 <img src="https://github.com/diaoquesang/BS-LDM/blob/main/offNoise.png" width="80%">
 </div>
 
-## Comparison Performance with Previous Works (Visualization)
-![image](https://github.com/diaoquesang/BS-LDM/blob/main/comparison.png)
+## Presentation of CXR and DES soft tissue images from various datasets.
+<div align="center">
+<img src="https://github.com/diaoquesang/BS-LDM/blob/main/presentation.png" width="100%">
+</div>
 
-## Ablation on Offset Noise and the Dynamic Clipping Strategy (Visualization)
+## Comparison Performance with Previous Works on SZCH-X-Rays dataset (Visualization)
+<div align="center">
+<img src="https://github.com/diaoquesang/BS-LDM/blob/main/SZCH-X-Rays.png" width="100%">
+</div>
+
+##  Comparison Performance with Previous Works on JSRT dataset (Visualization)
+<div align="center">
+<img src="https://github.com/diaoquesang/BS-LDM/blob/main/JSRT.png" width="100%">
+</div>
+
+<!--## Ablation on Offset Noise and the Dynamic Clipping Strategy (Visualization)
 <div align="center">
 <img src="https://github.com/diaoquesang/BS-LDM/blob/main/hist.jpg" width="40%">
-</div>
+</div> -->
 
 ## Detailed Clinical Evaluation Results
 
@@ -96,6 +124,8 @@ The mean scores for **lung vessel visibility**, **airway visibility** and **degr
 
 ### Diagnostic Utility Assessment
 The same dataset used for the bone suppression task was employed for this analysis. Lesions within the dataset were corroborated by **CT** and included a range of pathologies such as **inflammation**, **tuberculosis**, and **masses or nodules**. The diagnostic evaluations were conducted on CXR images and our model-generated soft tissue images independently. The results indicate that the soft tissue images from our BS-LDM **enable physicians to detect lesions more comprehensively and accurately** relative to the original CXR images, thereby confirming the **high clinical diagnostic value** of our model.
+
+The diagnostic value of soft tissue imaging was independently evaluated using clinical criteria for bone suppression efficacy by two physicians with various levels of professional skill at our partner hospitals, in accordance with the bone suppression application evaluation criteria. The SZCH-X-Rays dataset used for the bone suppression task was employed for this analysis, where lesions were confirmed by **computed tomography**, including diseases such as **inflammation**, **tuberculosis**, and **masses or nodules**. The physicians evaluated CXR and our model-generated soft tissue images,independently.The results show that the soft tissue images from BS-LDM help **physicians diagnose lesions more thoroughly and accurately** than the CXR images, validating the **high clinical diagnostic value** of our model.
 
 <table align="center">
 <tbody align="center" valign="center">
