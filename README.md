@@ -24,6 +24,11 @@ The **BS-LDM** is characterized by its core mechanism: a **conditional diffusion
 <img src="https://github.com/diaoquesang/BS-LDM/blob/main/cxr2bsNew.png" width="80%">
 </div>
 
+## Illustration of Gaussian noise, bias noise, and offset noise.
+<div align="center">
+<img src="https://github.com/diaoquesang/BS-LDM/blob/main/offNoise.png" width="80%">
+</div>
+
 ## Comparison Performance with Previous Works (Visualization)
 ![image](https://github.com/diaoquesang/BS-LDM/blob/main/comparison.png)
 
