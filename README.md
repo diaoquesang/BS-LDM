@@ -194,14 +194,6 @@ Now, we only provide three paired images with CXRs and DES soft-tissues images. 
 pip install -r requirements.txt
 ```
 
-### Download the checkpoints
-You can download the checkpoints to successfully run the codes!
-The files can be found in the following links : 
-
-https://drive.google.com/file/d/1KcVK0F7lG5L9Zc0-pWPS9pucAWIG3yFc/view?usp=drive_link
-
-https://drive.google.com/file/d/1zt5rV-d5wXVXCOgYqqM3C3r4wap6XkBe/view?usp=drive_link
-
 ## Evaluation
 To do the evaluation process of VQGAN, please run the following command:
 ```
