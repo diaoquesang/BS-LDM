@@ -176,7 +176,8 @@ The diagnostic value of soft tissue imaging was independently evaluated using cl
 * NVIDIA GPU (memory>=6G) + CUDA cuDNN
 
 ### Download the dataset
-Now, we only provide three paired images with CXRs and DES soft-tissues images. Soon, we will make them available to the public after data usage permission. Three paired images are located at
+The original JSRT dataset and precessed JSRT dataset are located at 
+Three paired images with CXRs and DES soft-tissues images of SZCH-X-Rays for testing are located at
 ```
 └─BS-LDM
     ├─ CXR
