@@ -19,17 +19,17 @@ The **BS-LDM** is characterized by its core mechanism: a **conditional diffusion
 <img src="https://github.com/diaoquesang/BS-LDM/blob/main/framework.png" width="100%">
 </div>
 
-## Presentation of CXR and DES soft tissue images from SZCH-X-Rays dataset.
+## Presentation of CXR and DES soft tissue images from SZCH-X-Rays dataset
 <div align="center">
 <img src="https://github.com/diaoquesang/BS-LDM/blob/main/d1.png" width="100%">
 </div>
 
-## Presentation of CXR and DES soft tissue images from original JSRT dataset.
+## Presentation of CXR and DES soft tissue images from original JSRT dataset
 <div align="center">
 <img src="https://github.com/diaoquesang/BS-LDM/blob/main/d2.png" width="100%">
 </div>
 
-## Presentation of CXR and DES soft tissue images from processed JSRT dataset.
+## Presentation of CXR and DES soft tissue images from processed JSRT dataset
 <div align="center">
 <img src="https://github.com/diaoquesang/BS-LDM/blob/main/d3.png" width="100%">
 </div>
@@ -39,23 +39,23 @@ The **BS-LDM** is characterized by its core mechanism: a **conditional diffusion
 <img src="https://github.com/diaoquesang/BS-LDM/blob/main/cxr2bsNew.png" width="80%">
 </div>
 
-## Illustration of Gaussian noise, bias noise, and offset noise.
+## Illustration of Gaussian noise, bias noise, and offset noise
 all pixels of bias noise have the **same value** sampled from a Gaussian distribution
 <div align="center">
 <img src="https://github.com/diaoquesang/BS-LDM/blob/main/offNoise.png" width="80%">
 </div>
 
-## Presentation of CXR and DES soft tissue images from various datasets.
+## Presentation of CXR and DES soft tissue images from various datasets
 <div align="center">
 <img src="https://github.com/diaoquesang/BS-LDM/blob/main/presentation.png" width="100%">
 </div>
 
-## Comparison Performance with Previous Works on SZCH-X-Rays dataset (Visualization)
+## Comparison performance with previous works on SZCH-X-Rays dataset (Visualization)
 <div align="center">
 <img src="https://github.com/diaoquesang/BS-LDM/blob/main/SZCH-X-Rays.png" width="100%">
 </div>
 
-##  Comparison Performance with Previous Works on JSRT dataset (Visualization)
+##  Comparison performance with previous works on JSRT dataset (Visualization)
 <div align="center">
 <img src="https://github.com/diaoquesang/BS-LDM/blob/main/JSRT.png" width="100%">
 </div>
