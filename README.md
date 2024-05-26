@@ -40,7 +40,7 @@ The **BS-LDM** is characterized by its core mechanism: a **conditional diffusion
 </div>
 
 ## Illustration of Gaussian noise, bias noise, and offset noise
-all pixels of bias noise have the **same value** sampled from a Gaussian distribution
+all pixels of bias noise have the **same value** sampled from a Gaussian distribution.
 <div align="center">
 <img src="https://github.com/diaoquesang/BS-LDM/blob/main/offNoise.png" width="80%">
 </div>
