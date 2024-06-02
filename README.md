@@ -16,54 +16,49 @@ This code is a pytorch implementation of our paper "BS-LDM: Effective Bone Suppr
 The **BS-LDM** is characterized by its core mechanism: a **conditional diffusion model** functioning within a **latent** space.
 
 <div align="center">
-<img src="https://github.com/diaoquesang/BS-LDM/blob/main/framework.png" width="100%">
+<img src="https://github.com/diaoquesang/BS-LDM/blob/main/images/framework.png" width="100%">
 </div>
 
 ## Presentation of CXR and DES soft tissue images from SZCH-X-Rays dataset
 <div align="center">
-<img src="https://github.com/diaoquesang/BS-LDM/blob/main/d1.png" width="100%">
+<img src="https://github.com/diaoquesang/BS-LDM/blob/main/images/d1.png" width="100%">
 </div>
 
 ## Presentation of CXR and DES soft tissue images from original JSRT dataset
 <div align="center">
-<img src="https://github.com/diaoquesang/BS-LDM/blob/main/d2.png" width="100%">
+<img src="https://github.com/diaoquesang/BS-LDM/blob/main/images/d2.png" width="100%">
 </div>
 
 ## Presentation of CXR and DES soft tissue images from processed JSRT dataset
 <div align="center">
-<img src="https://github.com/diaoquesang/BS-LDM/blob/main/d3.png" width="100%">
+<img src="https://github.com/diaoquesang/BS-LDM/blob/main/images/d3.png" width="100%">
 </div>
 
 ## Visualization of Bone Suppression Effect
 <div align="center">
-<img src="https://github.com/diaoquesang/BS-LDM/blob/main/cxr2bsNew.png" width="80%">
+<img src="https://github.com/diaoquesang/BS-LDM/blob/main/images/cxr2bsNew.png" width="80%">
 </div>
 
 ## Illustration of Gaussian noise, bias noise, and offset noise
 all pixels of bias noise have the **same value** sampled from a Gaussian distribution.
 <div align="center">
-<img src="https://github.com/diaoquesang/BS-LDM/blob/main/offNoise.png" width="80%">
+<img src="https://github.com/diaoquesang/BS-LDM/blob/main/images/offNoise.png" width="80%">
 </div>
 
 ## Presentation of CXR and DES soft tissue images from various datasets
 <div align="center">
-<img src="https://github.com/diaoquesang/BS-LDM/blob/main/presentation.png" width="100%">
+<img src="https://github.com/diaoquesang/BS-LDM/blob/main/images/presentation.png" width="100%">
 </div>
 
 ## Comparison performance with previous works on SZCH-X-Rays dataset (Visualization)
 <div align="center">
-<img src="https://github.com/diaoquesang/BS-LDM/blob/main/SZCH-X-Rays.png" width="100%">
+<img src="https://github.com/diaoquesang/BS-LDM/blob/main/images/SZCH-X-Rays.png" width="100%">
 </div>
 
 ##  Comparison performance with previous works on JSRT dataset (Visualization)
 <div align="center">
-<img src="https://github.com/diaoquesang/BS-LDM/blob/main/JSRT.png" width="100%">
+<img src="https://github.com/diaoquesang/BS-LDM/blob/main/images/JSRT.png" width="100%">
 </div>
-
-<!--## Ablation on Offset Noise and the Dynamic Clipping Strategy (Visualization)
-<div align="center">
-<img src="https://github.com/diaoquesang/BS-LDM/blob/main/hist.jpg" width="40%">
-</div> -->
 
 ## Detailed Clinical Evaluation Results
 
