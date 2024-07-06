@@ -12,7 +12,7 @@ from generative.networks.nets import DiffusionModelUNet
 
 
 myUnet = UNetModel(
-    image_size=config.image_size,
+    image_size=128,
     model_channels=128,
     in_channels=8,
     out_channels=8,
