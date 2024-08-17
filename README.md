@@ -8,10 +8,10 @@
 This code is a pytorch implementation of our paper "BS-LDM: Effective Bone Suppression in High-Resolution Chest X-Ray Images with Conditional Latent Diffusion Models".
 
 ## Primary Contributions
-1) We have developed an **end-to-end conditional latent diffusion model**, **BS-LDM**, for bone suppression, which is pioneering in its application to **high-resolution** CXR images (**1024 × 1024 pixels**).
-2) We have introduced **offset noise** and proposed a **dynamic clipping strategy**, both novel techniques aimed at enhancing the generation of **low-frequency information** in soft tissue images.
-3) We have compiled a **substantial and high-quality bone suppression dataset**, encompassing **high-resolution paired CXRs and DES soft tissue images** from **818 patients**, collated through our affiliate hospitals, which is **slated for public release**.
-4) We performed operations such as inversion and contrast adjustment on **241 pairs** of CXR and DES soft tissue images contained in **the largest open source dataset** for bone suppression currently available, JSRT, to restore them to conventional radiographs, which will be released soon.
+1) We developed an innovative end-to-end conditional LDM, BS-LDM, designed for bone suppression in high-resolution CXR images (\(1024 \times 1024\) pixels). This model aids in the clinical diagnosis of lung diseases such as inflammation, tuberculosis, and masses or nodules.
+2) We demonstrated the effectiveness of offset noise in generating low-frequency information in soft tissue images. Additionally, we introduced a dynamic clipping strategy to enhance the pixel intensity of the generated images.
+3) We compiled a substantial and high-quality bone suppression dataset named SZCH-X-Rays, consisting of high-resolution paired CXR and DES soft tissue images from 818 patients gathered from partner hospitals. Moreover, we pre-processed and publicized 241 pairs of CXR and DES soft tissue images from the JSRT dataset.
+
 ## Proposed Method
 The **BS-LDM** is characterized by its core mechanism: a **conditional diffusion model** functioning within a **latent** space.
 
