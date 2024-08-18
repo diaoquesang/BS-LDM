@@ -13,10 +13,10 @@ This code is a pytorch implementation of our paper "BS-LDM: Effective Bone Suppr
 3) We compiled a substantial and high-quality bone suppression dataset named SZCH-X-Rays, consisting of high-resolution paired CXR and DES soft tissue images from 818 patients gathered from partner hospitals. Moreover, we pre-processed and publicized 241 pairs of CXR and DES soft tissue images from the JSRT dataset.
 
 ## Proposed Method
-The **BS-LDM** is characterized by its core mechanism: a **conditional diffusion model** functioning within a **latent** space.
+Overview of the proposed BS-LDM. The top side of the framework describes the training process of BS-LDM, where the latent variables of the CXR images are used as conditional guidance for the estimation of the offset noise. At the bottom, the sampling process of BS-LDM is detailed, where the latent variables obtained after each sampling step are dynamically clipped to ensure that the resulting pixel intensities are consistent with real soft tissue images.
 
 <div align="center">
-<img src="https://github.com/diaoquesang/BS-LDM/blob/main/images/framework.png" width="100%">
+<img src="https://github.com/diaoquesang/BS-LDM/blob/main/images/frame.png" width="100%">
 </div>
 
 ## Presentation of CXR and DES soft tissue images from SZCH-X-Rays dataset
