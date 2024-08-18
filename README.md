@@ -8,7 +8,7 @@
 This code is a pytorch implementation of our paper "BS-LDM: Effective Bone Suppression in High-Resolution Chest X-Ray Images with Conditional Latent Diffusion Models".
 
 ## Primary Contributions
-1) We developed an innovative end-to-end conditional LDM, BS-LDM, designed for bone suppression in high-resolution CXR images (\(1024 \times 1024\) pixels). This model aids in the clinical diagnosis of lung diseases such as inflammation, tuberculosis, and masses or nodules.
+1) We developed an innovative end-to-end conditional LDM, BS-LDM, designed for bone suppression in high-resolution CXR images (1024 × 1024) pixels). This model aids in the clinical diagnosis of lung diseases such as inflammation, tuberculosis, and masses or nodules.
 2) We demonstrated the effectiveness of offset noise in generating low-frequency information in soft tissue images. Additionally, we introduced a dynamic clipping strategy to enhance the pixel intensity of the generated images.
 3) We compiled a substantial and high-quality bone suppression dataset named SZCH-X-Rays, consisting of high-resolution paired CXR and DES soft tissue images from 818 patients gathered from partner hospitals. Moreover, we pre-processed and publicized 241 pairs of CXR and DES soft tissue images from the JSRT dataset.
 
