@@ -19,9 +19,9 @@ Overview of the proposed BS-LDM. The top side of the framework describes the tra
 <img src="https://github.com/diaoquesang/BS-LDM/blob/main/images/frame.png" width="100%">
 </div>
 
-## Presentation of CXR and DES soft tissue images from SZCH-X-Rays dataset
+## Visualization of high- and low-frequency feature decomposition of latent variables before and after Gaussian noise addition.
 <div align="center">
-<img src="https://github.com/diaoquesang/BS-LDM/blob/main/images/d1.png" width="100%">
+<img src="https://github.com/diaoquesang/BS-LDM/blob/main/images/freq.png" width="100%">
 </div>
 
 ## Presentation of CXR and DES soft tissue images from original JSRT dataset
