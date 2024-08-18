@@ -111,7 +111,7 @@ Among the 818 data pairs assessed, 79 pairs contained one or more of these lesio
 <table align="center">
 <tbody align="center" valign="center">
   <tr>
-    <td>Junior Physician</td>
+    <td>Junior Radiologist</td>
     <td>Precision (↑)</td>
     <td>Recall (↑)</td>
     <td>F1 Score (↑)</td>
@@ -129,7 +129,7 @@ Among the 818 data pairs assessed, 79 pairs contained one or more of these lesio
     <th>0.63</th>
   </tr>
   <tr>
-    <td>Senior Physician</td>
+    <td>Senior Radiologist</td>
     <td>Precision (↑)</td>
     <td>Recall (↑)</td>
     <td>F1 Score (↑)</td>
