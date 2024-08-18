@@ -5,12 +5,12 @@
 ![](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=Python&logoColor=FFFFFF)
 ![](https://img.shields.io/badge/-Pytorch-EE4C2C?style=flat-square&logo=Pytorch&logoColor=FFFFFF)
 
-This code is a pytorch implementation of our paper "BS-LDM: Effective Bone Suppression in High-Resolution Chest X-Ray Images with Conditional Latent Diffusion Models".
+This code is a **pytorch** implementation of our paper **"BS-LDM: Effective Bone Suppression in High-Resolution Chest X-Ray Images with Conditional Latent Diffusion Models"**.
 
 ## Primary Contributions
-1) We developed an innovative end-to-end conditional LDM, BS-LDM, designed for bone suppression in high-resolution CXR images (1024 × 1024) pixels). This model aids in the clinical diagnosis of lung diseases such as inflammation, tuberculosis, and masses or nodules.
-2) We demonstrated the effectiveness of offset noise in generating low-frequency information in soft tissue images. Additionally, we introduced a dynamic clipping strategy to enhance the pixel intensity of the generated images.
-3) We compiled a substantial and high-quality bone suppression dataset named SZCH-X-Rays, consisting of high-resolution paired CXR and DES soft tissue images from 818 patients gathered from partner hospitals. Moreover, we pre-processed and publicized 241 pairs of CXR and DES soft tissue images from the JSRT dataset.
+1) We developed an innovative end-to-end **conditional LDM**, **BS-LDM**, designed for **bone suppression** in **high-resolution CXR images (1024 × 1024 pixels)**. This model aids in the clinical diagnosis of lung diseases such as **inflammation**, **tuberculosis**, and **masses or nodules**.
+2) We demonstrated the effectiveness of **offset noise** in generating low-frequency information in soft tissue images. Additionally, we introduced a **dynamic clipping strategy** to enhance the pixel intensity of the generated images.
+3) We compiled a substantial and high-quality bone suppression dataset named **SZCH-X-Rays**, consisting of high-resolution paired CXR and DES soft tissue images from 818 patients gathered from partner hospitals. Moreover, we pre-processed and publicized 241 pairs of CXR and DES soft tissue images from the **JSRT** dataset.
 
 ## Proposed Method
 Overview of the proposed BS-LDM. The top side of the framework describes the training process of BS-LDM, where the latent variables of the CXR images are used as conditional guidance for the estimation of the offset noise. At the bottom, the sampling process of BS-LDM is detailed, where the latent variables obtained after each sampling step are dynamically clipped to ensure that the resulting pixel intensities are consistent with real soft tissue images.
