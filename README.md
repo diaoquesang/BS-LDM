@@ -19,45 +19,29 @@ Overview of the proposed BS-LDM. The top side of the framework describes the tra
 <img src="https://github.com/diaoquesang/BS-LDM/blob/main/images/frame.png" width="100%">
 </div>
 
-## Visualization of high- and low-frequency feature decomposition of latent variables before and after Gaussian noise addition.
+## Visualization of high- and low-frequency feature decomposition of latent variables before and after Gaussian noise addition
 <div align="center">
 <img src="https://github.com/diaoquesang/BS-LDM/blob/main/images/freq.png" width="100%">
 </div>
 
-## Presentation of CXR and DES soft tissue images from original JSRT dataset
+## Illustration of the composition of offset noise
 <div align="center">
-<img src="https://github.com/diaoquesang/BS-LDM/blob/main/images/d2.png" width="100%">
+<img src="https://github.com/diaoquesang/BS-LDM/blob/main/images/off.png" width="100%">
 </div>
 
-## Presentation of CXR and DES soft tissue images from processed JSRT dataset
+## Visualization of soft tissue images on SZCH-X-Rays and JSRT datasets produced by different methods
 <div align="center">
-<img src="https://github.com/diaoquesang/BS-LDM/blob/main/images/d3.png" width="100%">
+<img src="https://github.com/diaoquesang/BS-LDM/blob/main/images/comp.png" width="100%">
 </div>
 
-## Visualization of Bone Suppression Effect
+## Visualization of ablation studies of offset noise and the dynamic clipping strategy of BS-LDM
 <div align="center">
-<img src="https://github.com/diaoquesang/BS-LDM/blob/main/images/cxr2bsNew.png" width="80%">
+<img src="https://github.com/diaoquesang/BS-LDM/blob/main/images/abl2.png" width="80%">
 </div>
 
-## Illustration of Gaussian noise, bias noise, and offset noise
-all pixels of bias noise have the **same value** sampled from a Gaussian distribution.
+## Presentation of CXR and DES soft tissue images in SZCH-X-Rays and JSRT datasets
 <div align="center">
-<img src="https://github.com/diaoquesang/BS-LDM/blob/main/images/offNoise.png" width="80%">
-</div>
-
-## Presentation of CXR and DES soft tissue images from various datasets
-<div align="center">
-<img src="https://github.com/diaoquesang/BS-LDM/blob/main/images/presentation.png" width="100%">
-</div>
-
-## Comparison performance with previous works on SZCH-X-Rays dataset (Visualization)
-<div align="center">
-<img src="https://github.com/diaoquesang/BS-LDM/blob/main/images/SZCH-X-Rays.png" width="100%">
-</div>
-
-##  Comparison performance with previous works on JSRT dataset (Visualization)
-<div align="center">
-<img src="https://github.com/diaoquesang/BS-LDM/blob/main/images/JSRT.png" width="100%">
+<img src="https://github.com/diaoquesang/BS-LDM/blob/main/images/dataset.png" width="80%">
 </div>
 
 ## Detailed Clinical Evaluation Results
