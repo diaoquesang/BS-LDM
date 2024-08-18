@@ -34,6 +34,7 @@ def split_dataset(file_path, train_ratio=0.8):
     with open('test_set.txt', 'w') as f:
         f.writelines(test_set)
     print(f"数据集已成功划分为训练集和测试集，并保存到对应的txt文件中。")
+    # 如需要验证集划分可再次调整比例并运行
 
 
 if __name__ == "__main__":
