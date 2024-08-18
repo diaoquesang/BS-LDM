@@ -188,7 +188,7 @@ python ldm_eval.py
 ```
 
 ## Training
-If you want to train our model by yourself, you are primarily expected to split the whole dataset into training and testing. Please run the following command:
+If you want to train our model by yourself, you are primarily expected to split the whole dataset into training, validation and testing sets. Please run the following command:
 ```
 python dataSegmentation.py
 ```
