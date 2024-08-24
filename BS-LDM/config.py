@@ -29,5 +29,5 @@ class config():
     offset_noise_coefficient = 0.1
     output_feature_map = True
     clip_sample = True
-    initial_clip_sample_range = 1.5
-    clip_rate = 0.0021
+    initial_clip_sample_range = 1.4
+    clip_rate = 0.003
