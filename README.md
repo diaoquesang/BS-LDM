@@ -205,4 +205,9 @@ python ldm_train.py
 You can also run the following command about evaluation metrics in our experiment including BSR, MSE, PSNR and LPIPS:
 ```
 python metrics.py
-```      
+```
+
+## Citation
+```
+Upcoming Soon!
+```
