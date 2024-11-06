@@ -156,6 +156,13 @@ Among the 818 data pairs assessed, 79 pairs contained one or more of these lesio
 
 * NVIDIA GPU (memory>=6G) + CUDA cuDNN
 
+### Pre-trained models
+[VQGAN - SZCH-X-Rays](https://drive.google.com/file/d/1KcVK0F7lG5L9Zc0-pWPS9pucAWIG3yFc/view?usp=sharing)
+[UNet - SZCH-X-Rays](https://drive.google.com/file/d/1zt5rV-d5wXVXCOgYqqM3C3r4wap6XkBe/view?usp=sharing)
+[VQGAN - JSRT](https://drive.google.com/file/d/17qp7H3v6L4fOqZJCTWifpzXGydEQSloU/view?usp=sharing)
+[UNet - JSRT](https://drive.google.com/file/d/12b2rykq6lw1hajEbMJtidJZRVl-ZXX3a/view?usp=sharing)
+
+
 ### Download the dataset
 The original JSRT dataset and precessed JSRT dataset are located at [https://drive.google.com/file/d/1RkiU85FFfouWuKQbpD7Pc7o3aZ7KrpYf/view?usp=sharing](https://drive.google.com/file/d/1RkiU85FFfouWuKQbpD7Pc7o3aZ7KrpYf/view?usp=sharing) and [https://drive.google.com/file/d/1o-T5l2RKdT5J75eBsqajqAuHPfZnzPhj/view?usp=sharing](https://drive.google.com/file/d/1o-T5l2RKdT5J75eBsqajqAuHPfZnzPhj/view?usp=sharing), respectively.
 
