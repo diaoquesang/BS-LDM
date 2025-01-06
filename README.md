@@ -5,7 +5,8 @@
 ![](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=Python&logoColor=FFFFFF)
 ![](https://img.shields.io/badge/-Pytorch-EE4C2C?style=flat-square&logo=Pytorch&logoColor=FFFFFF)
 
-This code is a **pytorch** implementation of our paper **"BS-LDM: Effective Bone Suppression in High-Resolution Chest X-Ray Images with Conditional Latent Diffusion Models"**.
+This code is a **pytorch** implementation of our paper [**"BS-LDM: Effective Bone Suppression in High-Resolution Chest X-Ray Images with Conditional Latent Diffusion Models"**](https://arxiv.org/pdf/2412.15670).
+
 
 ## Visualization of the Generation Process
 
