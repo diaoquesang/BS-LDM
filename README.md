@@ -7,6 +7,12 @@
 
 This code is a **pytorch** implementation of our paper **"BS-LDM: Effective Bone Suppression in High-Resolution Chest X-Ray Images with Conditional Latent Diffusion Models"**.
 
+## Visualization of the Generation Process
+
+<div align="center">
+<img src="https://github.com/diaoquesang/BS-LDM/blob/main/images/gif.gif" width="50%">
+</div>
+
 ## Primary Contributions
 
 1) We introduce an **end-to-end LDM-based framework for high-resolution bone suppression**, named **BS-LDM**. It utilizes a **multi-level hybrid loss-constrained VQGAN for effective perceptual compression**. This framework consistently generates soft tissue images with high levels of bone suppression while preserving fine details and critical lung lesions.
