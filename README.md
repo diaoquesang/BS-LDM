@@ -228,5 +228,6 @@ python metrics.py
 
 ## Citation
 ```
-Upcoming Soon!
+Sun Y, Chen Z, Zheng H, et al. BS-LDM: Effective Bone Suppression in High-Resolution Chest X-Ray Images with Conditional Latent Diffusion Models[J]. arXiv preprint arXiv:2412.15670, 2024.
+
 ```
