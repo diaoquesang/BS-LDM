@@ -42,7 +42,7 @@ Overview of the proposed BS-LDM: (a) The training process of BS-LDM, where CXR a
 
 ## Power spectral densities of soft tissue images in SZCH-X-Rays, corresponding latent variables and Gaussian noise on 201 spectrogram components, averaged over 10000 samples
 <div align="center">
-<img src="https://github.com/diaoquesang/BS-LDM/blob/main/images/PSD.png" width="80%">
+<img src="https://github.com/diaoquesang/BS-LDM/blob/main/images/PSD.svg" width="80%">
 </div>
 
 ## Illustration of the composition of offset noise
