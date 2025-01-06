@@ -9,25 +9,26 @@ This code is a **pytorch** implementation of our paper **"BS-LDM: Effective Bone
 
 ## Primary Contributions
 
-1) We introduce an end-to-end LDM-based framework for high-resolution bone suppression, named BS-LDM. It utilizes a multi-level hybrid loss-constrained VQGAN for effective perceptual compression. This framework consistently generates soft tissue images with high levels of bone suppression while preserving fine details and critical lung lesions.
+1) We introduce an **end-to-end LDM-based framework for high-resolution bone suppression**, named **BS-LDM**. It utilizes a **multi-level hybrid loss-constrained VQGAN for effective perceptual compression**. This framework consistently generates soft tissue images with high levels of bone suppression while preserving fine details and critical lung lesions.
     
 
-2) To enhance the quality of generated images, we incorporate offset noise and a temporal adaptive thresholding strategy. These innovations help minimize discrepancies in low-frequency information, thereby improving the interpretability of the soft tissue images.
+2) To enhance the quality of generated images, we incorporate **offset noise** and a **temporal adaptive thresholding strategy**. These innovations help minimize discrepancies in low-frequency information, thereby improving the interpretability of the soft tissue images.
 
     
-3) We have compiled a comprehensive bone suppression dataset, SZCH-X-Rays, which includes 818 pairs of high-resolution CXR and DES soft tissue images from our partner hospital. Additionally, we processed 241 pairs of images from the JSRT dataset into negative formats more commonly used in clinical settings.
+3) We have compiled a comprehensive bone suppression dataset, **SZCH-X-Rays**, which includes 818 pairs of high-resolution CXR and DES soft tissue images from our partner hospital. Additionally, we processed 241 pairs of images from the **JSRT** dataset into negative formats more commonly used in clinical settings.
 
-4) Our clinical evaluation focused on image quality and diagnostic utility. The results demonstrated excellent image quality scores and substantial diagnostic improvements, underscoring the clinical significance of our work.
+4) Our **clinical evaluation** focused on image quality and diagnostic utility. The results demonstrated excellent image quality scores and substantial diagnostic improvements, underscoring the clinical significance of our work.
     
 
 ## Proposed Method
-Overview of the proposed BS-LDM: (a) The training process of BS-LDM, where CXR and noised soft tissue data in the latent space are transmitted to the noise estimator for offset noise prediction and L2 loss calculation; (b) The training process of ML-VQGAN, where a multi-level hybrid loss-constrained VQGAN is used to construct a latent space by training the reconstruction of CXR and soft tissue images, using a codebook to represent the discrete features of the images; (c) The sampling process of BS-LDM, where the latent variables obtained after each denoising step are clipped using a temporal adaptive thresholding strategy for the sake of contrast stability.
 
 <div align="center">
 <img src="https://github.com/diaoquesang/BS-LDM/blob/main/images/frame.png" width="100%">
 </div>
 
-## Visualization of high- and low-frequency feature decomposition of latent variables before and after Gaussian noise addition
+Overview of the proposed BS-LDM: (a) The training process of BS-LDM, where CXR and noised soft tissue data in the latent space are transmitted to the noise estimator for offset noise prediction and L2 loss calculation; (b) The training process of ML-VQGAN, where a multi-level hybrid loss-constrained VQGAN is used to construct a latent space by training the reconstruction of CXR and soft tissue images, using a codebook to represent the discrete features of the images; (c) The sampling process of BS-LDM, where the latent variables obtained after each denoising step are clipped using a temporal adaptive thresholding strategy for the sake of contrast stability.
+
+## Visualization of high-frequency and low-frequency feature decomposition of latent variables before and after Gaussian noise addition using Discrete Fourier Transform
 <div align="center">
 <img src="https://github.com/diaoquesang/BS-LDM/blob/main/images/freq.png" width="100%">
 </div>
@@ -42,7 +43,7 @@ Overview of the proposed BS-LDM: (a) The training process of BS-LDM, where CXR a
 <img src="https://github.com/diaoquesang/BS-LDM/blob/main/images/comp.png" width="100%">
 </div>
 
-## Visualization of ablation studies of offset noise and the dynamic clipping strategy of BS-LDM
+## Visualization of ablation studies of offset noise and the temporal adaptive thresholding strategy on BS-LDM, with histograms given to visualize the pixel intensity distribution more intuitively
 <div align="center">
 <img src="https://github.com/diaoquesang/BS-LDM/blob/main/images/abl.png" width="80%">
 </div>
@@ -55,7 +56,7 @@ Overview of the proposed BS-LDM: (a) The training process of BS-LDM, where CXR a
 ## Detailed Clinical Evaluation Results
 
 ### Image Quality Assessment
-The soft tissue images generated by BS-LDM on the SZCH-X-Rays dataset were independently evaluated for image quality based on established clinical criteria  widely used to assess bone suppression efficacy. Three radiologists, with 6, 11, and 20 years of experience, respectively, conducted these evaluations at our partner hospitals. The average scores for lung vessel visibility, airway visibility, and degree of bone suppression were 2.758, 2.714, and 2.765, respectively, on a scale where the maximum score was 3. These results indicate that our BS-LDM not only effectively suppresses bones but also retains fine details and lung pathology.
+The soft tissue images generated by the BS-LDM on the SZCH-X-Rays dataset were independently evaluated for image quality using established clinical criteria that are commonly applied to assess bone suppression efficacy. Three radiologists, with 6, 11, and 21 years of experience respectively, conducted these evaluations at our partner hospital. The average scores for lung vessel visibility, airway visibility, and the degree of bone suppression were 2.758, 2.714, and 2.765, respectively, out of a maximum score of 3. These findings indicate that BS-LDM effectively suppresses bone while preserving fine details and lung pathology.
 
 <table align="center">
 <thead align="center" valign="center">
@@ -110,10 +111,7 @@ The soft tissue images generated by BS-LDM on the SZCH-X-Rays dataset were indep
 </table>
 
 ### Diagnostic Utility Assessment
-The diagnostic value of soft tissue imaging was independently evaluated by two radiologists with 6 and 11 years of experience, respectively, following the X-ray diagnostic standard. For this analysis, we used the SZCH-X-Rays dataset, which included confirmed lesions through computed tomography, covering common lung diseases such as inflammation, tuberculosis, and masses or nodules.
-
-Among the 818 data pairs assessed, 79 pairs contained one or more of these lesions. The radiologists independently evaluated both the conventional CXRs and the soft tissue images generated by our model. The findings indicate that the soft tissue images produced by BS-LDM enable radiologists to diagnose lesions more thoroughly and accurately than conventional CXRs, thereby validating the high clinical diagnostic value of our model.
-
+The diagnostic value of soft tissue imaging was independently evaluated by two radiologists with 6 and 11 years of experience, following the X-ray diagnosis standard. This analysis employed the SZCH-X-Rays dataset for bone suppression, using computed tomography to confirm lesions, which included common lung diseases such as inflammation, tuberculosis, and masses or nodules. Out of 818 data pairs assessed, 79 pairs contained one or more of these lesions. The radiologists independently evaluated both conventional CXR and the soft tissue images generated by our model. The findings suggest that the soft tissue images produced by BS-LDM enable more thorough and accurate lesion diagnosis compared to CXR images, thereby confirming its high clinical diagnostic value.
 
 
 <table align="center">
