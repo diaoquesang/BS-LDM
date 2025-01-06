@@ -24,27 +24,27 @@ This code is a **pytorch** implementation of our paper **"BS-LDM: Effective Bone
 Overview of the proposed BS-LDM: (a) The training process of BS-LDM, where CXR and noised soft tissue data in the latent space are transmitted to the noise estimator for offset noise prediction and L2 loss calculation; (b) The training process of ML-VQGAN, where a multi-level hybrid loss-constrained VQGAN is used to construct a latent space by training the reconstruction of CXR and soft tissue images, using a codebook to represent the discrete features of the images; (c) The sampling process of BS-LDM, where the latent variables obtained after each denoising step are clipped using a temporal adaptive thresholding strategy for the sake of contrast stability.
 
 <div align="center">
-<img src="https://github.com/diaoquesang/BS-LDM/blob/main/images/frame.png" width="100%">
+<img src="https://github.com/diaoquesang/BS-LDM/blob/main/images/frame1.png" width="100%">
 </div>
 
 ## Visualization of high- and low-frequency feature decomposition of latent variables before and after Gaussian noise addition
 <div align="center">
-<img src="https://github.com/diaoquesang/BS-LDM/blob/main/images/freq.png" width="100%">
+<img src="https://github.com/diaoquesang/BS-LDM/blob/main/images/freq1.png" width="100%">
 </div>
 
 ## Illustration of the composition of offset noise
 <div align="center">
-<img src="https://github.com/diaoquesang/BS-LDM/blob/main/images/off.png" width="100%">
+<img src="https://github.com/diaoquesang/BS-LDM/blob/main/images/off1.png" width="100%">
 </div>
 
 ## Visualization of soft tissue images on SZCH-X-Rays and JSRT datasets produced by different methods
 <div align="center">
-<img src="https://github.com/diaoquesang/BS-LDM/blob/main/images/comp.png" width="100%">
+<img src="https://github.com/diaoquesang/BS-LDM/blob/main/images/comp1.png" width="100%">
 </div>
 
 ## Visualization of ablation studies of offset noise and the dynamic clipping strategy of BS-LDM
 <div align="center">
-<img src="https://github.com/diaoquesang/BS-LDM/blob/main/images/abl.png" width="80%">
+<img src="https://github.com/diaoquesang/BS-LDM/blob/main/images/abl1.png" width="80%">
 </div>
 
 ## Presentation of CXR and DES soft tissue images in SZCH-X-Rays and JSRT datasets
