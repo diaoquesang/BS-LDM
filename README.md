@@ -175,7 +175,7 @@ The diagnostic value of soft tissue imaging was independently evaluated by two r
 
 * Python>=3.7
 
-* NVIDIA GPU (memory>=6G) + CUDA cuDNN
+* NVIDIA GPU (memory>=32G) + CUDA cuDNN
 
 ### Pre-trained models
 [VQGAN - SZCH-X-Rays](https://drive.google.com/file/d/1KcVK0F7lG5L9Zc0-pWPS9pucAWIG3yFc/view?usp=sharing)
