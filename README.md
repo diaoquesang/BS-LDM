@@ -185,7 +185,7 @@ The diagnostic value of soft tissue imaging was independently evaluated by two r
 
 
 ### Download the dataset
-The original JSRT dataset and precessed JSRT dataset are located at [https://drive.google.com/file/d/1RkiU85FFfouWuKQbpD7Pc7o3aZ7KrpYf/view?usp=sharing](https://drive.google.com/file/d/1RkiU85FFfouWuKQbpD7Pc7o3aZ7KrpYf/view?usp=sharing) and [https://drive.google.com/file/d/1o-T5l2RKdT5J75eBsqajqAuHPfZnzPhj/view?usp=sharing](https://drive.google.com/file/d/1o-T5l2RKdT5J75eBsqajqAuHPfZnzPhj/view?usp=sharing), respectively.
+The original JSRT dataset and processed JSRT dataset are located at [https://drive.google.com/file/d/1RkiU85FFfouWuKQbpD7Pc7o3aZ7KrpYf/view?usp=sharing](https://drive.google.com/file/d/1RkiU85FFfouWuKQbpD7Pc7o3aZ7KrpYf/view?usp=sharing) and [https://drive.google.com/file/d/1o-T5l2RKdT5J75eBsqajqAuHPfZnzPhj/view?usp=sharing](https://drive.google.com/file/d/1o-T5l2RKdT5J75eBsqajqAuHPfZnzPhj/view?usp=sharing), respectively.
 
 Three paired images with CXRs and DES soft-tissues images of SZCH-X-Rays for testing are located at
 ```
@@ -224,7 +224,7 @@ Then, you can run the following command to train the VQGAN model:
 ```
 python vq-gan_train.py
 ```
-Then after finishing the training of VQGAN, you can use the saved VQGAN model as a decoder when training the conditional latent diffusion model by running the following command:
+Then after finishing the training of VQGAN, you can use the saved VQGAN model when training the conditional latent diffusion model by running the following command:
 ```
 python ldm_train.py
 ```
