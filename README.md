@@ -9,7 +9,7 @@
 </div>
 
 
-This code is a **pytorch** implementation of our paper [**"BS-LDM: Effective Bone Suppression in High-Resolution Chest X-Ray Images with Conditional Latent Diffusion Models"**](https://arxiv.org/pdf/2412.15670).[[Project Page](https://benny0323.github.io/BS-LDM-Project-Page/)]
+This code is a **pytorch** implementation of our paper [**"BS-LDM: Effective Bone Suppression in High-Resolution Chest X-Ray Images with Conditional Latent Diffusion Models"**](https://arxiv.org/pdf/2412.15670). [[Project Page](https://benny0323.github.io/BS-LDM-Project-Page/)]
 
 
 ## Visualization of the Generation Process
