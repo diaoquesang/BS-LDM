@@ -1,4 +1,4 @@
-[![](https://capsule-render.vercel.app/api?type=waving&height=200&color=timeGradient&text=BS-LDM:%20Effective%20Bone%20Suppression%20in%20High-Resolution-nl-Chest%20X-Ray%20Images%20with%20Conditional%20Latent%20Diffusion%20Models&reversal=false&fontSize=25&fontAlignY=40)
+[![](https://capsule-render.vercel.app/api?type=waving&height=200&color=timeGradient&text=BS-LDM:%20Effective%20Bone%20Suppression%20in%20High-Resolution-nl-Chest%20X-Ray%20Images%20with%20Conditional%20Latent%20Diffusion%20Models&reversal=false&fontSize=25&fontAlignY=20)
 ](https://diaoquesang.github.io/)
 
 <div align="center">
