@@ -53,7 +53,7 @@ Overview of the proposed BS-LDM: (a) The training process of BS-LDM, where CXR a
 
 ## Visualization of soft tissue images on SZCH-X-Rays and JSRT datasets produced by different methods
 <div align="center">
-<img src="https://github.com/diaoquesang/BS-LDM/blob/main/images/comp.png" width="80%">
+<img src="https://github.com/diaoquesang/BS-LDM/blob/main/images/cp.png" width="80%">
 </div>
 
 ## Visualization of ablation studies of offset noise and the temporal adaptive thresholding strategy on BS-LDM, with histograms given to visualize the pixel intensity distribution more intuitively
