@@ -1,6 +1,6 @@
 <div align="center">
 
-![](https://capsule-render.vercel.app/api?type=waving&height=200&color=timeGradient&text=BS-LDM:%20Effective%20Bone%20Suppression%20in%20High-Resolution-nl-Chest%20X-Ray%20Images%20with%20Conditional%20Latent%20Diffusion%20Models&reversal=false&fontSize=25&fontAlignY=30&desc=Yifei%20Sun,%20Zhanghao%20Chen,%20Hao%20Zheng,%20Wenming%20Deng,%20Jin%20Liu,%20Wenwen%20Min,%20Ahmed%20Elazab,%20Xiang%20Wan,%20Changmiao%20Wang,%20Ruiquan%20Ge&descSize=12&descAlignY=55)
+![](https://capsule-render.vercel.app/api?type=waving&height=200&color=0:EEFF00,100:FF2F0F&text=BS-LDM:%20Effective%20Bone%20Suppression%20in%20High-Resolution-nl-Chest%20X-Ray%20Images%20with%20Conditional%20Latent%20Diffusion%20Models&reversal=false&fontSize=25&fontAlignY=30&desc=Yifei%20Sun,%20Zhanghao%20Chen,%20Hao%20Zheng,%20Wenming%20Deng,%20Jin%20Liu,%20Wenwen%20Min,%20Ahmed%20Elazab,%20Xiang%20Wan,%20Changmiao%20Wang,%20Ruiquan%20Ge&descSize=12&descAlignY=55)
 
 </div>
 
