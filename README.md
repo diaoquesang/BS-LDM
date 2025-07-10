@@ -245,8 +245,9 @@ python metrics.py
 @article{sun2024bs,
   title={BS-LDM: Effective Bone Suppression in High-Resolution Chest X-Ray Images with Conditional Latent Diffusion Models},
   author={Sun, Yifei and Chen, Zhanghao and Zheng, Hao and Ge, Ruiquan and Liu, Jin and Min, Wenwen and Elazab, Ahmed and Wan, Xiang and Wang, Changmiao},
-  journal={arXiv preprint arXiv:2412.15670},
-  year={2024}
+  journal={IEEE Journal of Biomedical and Health Informatics},
+  year={2025}
+  publisher={IEEE}
 }
 ```
 ## Star History
