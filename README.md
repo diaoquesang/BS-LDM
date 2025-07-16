@@ -1,4 +1,4 @@
-<div align="center">
+<img width="1007" height="512" alt="image" src="https://github.com/user-attachments/assets/2276d4e6-221e-427d-8cee-3707674083ab" /><div align="center">
 
 ![](https://capsule-render.vercel.app/api?type=waving&height=200&color=0:2193b0,100:45ed3F&text=BS-LDM:%20Effective%20Bone%20Suppression%20in%20High-Resolution-nl-Chest%20X-Ray%20Images%20with%20Conditional%20Latent%20Diffusion%20Models&reversal=false&fontSize=25&fontAlignY=30&desc=Yifei%20Sun,%20Zhanghao%20Chen,%20Hao%20Zheng,%20Wenming%20Deng,%20Jin%20Liu,%20Wenwen%20Min,%20Ahmed%20Elazab,%20Xiang%20Wan,%20Changmiao%20Wang,%20Ruiquan%20Ge&descSize=12&descAlignY=55&fontColor=FFFFFF)
 
@@ -13,7 +13,7 @@
 [![](https://img.shields.io/github/license/diaoquesang/BS-LDM)](https://github.com/diaoquesang/BS-LDM/blob/main/LICENSE)  
 </div>
 
-# [🖨️ ArXiv](https://arxiv.org/pdf/2412.15670) [🗃️ Project Page](https://benny0323.github.io/BS-LDM-Project-Page/)
+# [📄 Paper](https://ieeexplore.ieee.org/document/11079814) [🖨️ ArXiv](https://arxiv.org/pdf/2412.15670) [🗃️ Project Page](https://benny0323.github.io/BS-LDM-Project-Page/) 
 
 
 This code is a pytorch implementation of our paper "**BS-LDM: Effective Bone Suppression in High-Resolution Chest X-Ray Images with Conditional Latent Diffusion Models**" accepted by **IEEE Journal of Biomedical and Health Informatics (JBHI) 2025**.
